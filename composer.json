@@ -1,0 +1,11 @@
+{
+    "name": "ach/rabbit",
+    "require": {
+        "videlalvaro/php-amqplib": "2.5.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "RabbitMq\\": "src/RabbitMq"
+      }
+  }
+}
